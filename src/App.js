@@ -5,13 +5,15 @@ import {Navbar, Billing, CardDeal, Business, Clients, CTA, Stats, Footer, Testim
 function App() {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      
+
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar/>
 
         </div>
       </div>
+
+      <h1 style={{color:'red'}}>Stopped at 8:30</h1>
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={` ${styles.boxWidth}`}>
@@ -24,7 +26,6 @@ function App() {
           <Stats/>
           <Business/>
           <Billing/>
-          <h1 style={{color:'red'}}>Stopped at 8:01</h1>
           <CardDeal/>
           <Testimonials/>
           <Clients/>

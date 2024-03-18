@@ -21,10 +21,10 @@ function App() {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={` ${styles.boxWidth}`}>
-        <h1 style={{color:'red'}}>Stopped at 7:33</h1>
           <Stats/>
           <Business/>
           <Billing/>
+          <h1 style={{color:'red'}}>Stopped at 8:01</h1>
           <CardDeal/>
           <Testimonials/>
           <Clients/>

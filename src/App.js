@@ -13,7 +13,7 @@ function App() {
         </div>
       </div>
 
-      <h1 style={{color:'red'}}>Stopped at 8:30</h1>
+
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={` ${styles.boxWidth}`}>
